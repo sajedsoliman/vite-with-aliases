@@ -14,9 +14,16 @@
 		"isolatedModules": true,
 		"noEmit": true,
 		"jsx": "react",
+		"baseUrl": "./",
 		"paths": {
-			"@styles": ["./styles"],
-			"@images": ["./assets"]
+			"@": ["src"],
+			"@styles": ["styles"],
+			"@assets": ["assets"],
+			"@components": ["components"],
+			"@utils": ["utils"],
+			"@services": ["services"],
+			"@views": ["views"],
+			"@store": ["store"]
 		}
 	},
 	"include": ["./src"]

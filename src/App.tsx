@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 function App() {
 	return (
 		<div className="App">
-			<h3>what!</h3>
+			<h3>Go!</h3>
 		</div>
 	);
 }
