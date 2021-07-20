@@ -1,6 +1,6 @@
 import alias from "@rollup/plugin-alias";
 
-module.exports = {
+export default {
 	input: "src/main.tsx",
 	output: {
 		dir: "output",
