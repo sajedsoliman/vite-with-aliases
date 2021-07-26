@@ -11,6 +11,7 @@
 	},
 	"devDependencies": {
 		"@rollup/plugin-alias": "^3.1.4",
+		"@types/node": "^16.4.3",
 		"@types/react": "^17.0.0",
 		"@types/react-dom": "^17.0.0",
 		"@vitejs/plugin-legacy": "^1.4.4",
